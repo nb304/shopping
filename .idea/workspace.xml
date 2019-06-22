@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ae9e1d-ae6b-40b1-ade6-1fb84214de92" name="Default" comment="AxureV1.0.1  大致描述了&quot;商品信息管理&quot;,&quot;商品品牌管理&quot;,&quot;商品类目管理&quot;的内容">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/原型设计/ShopManageAxure2.rp" beforeDir="false" afterPath="$PROJECT_DIR$/原型设计/ShopManageAxure2.rp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="模块分配.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="设计进度.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/模块分配/设计进度.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="模块分配.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/模块分配/模块分配.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="125">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -38,7 +47,7 @@
       <file leaf-file-name="模块详情.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/模块分配/模块详情.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="775">
               <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
             </state>
           </provider>
@@ -81,6 +90,7 @@
         <option value="$PROJECT_DIR$/原型设计/商城后台.txt" />
         <option value="$PROJECT_DIR$/模块分配/模块详情.txt" />
         <option value="$PROJECT_DIR$/模块分配/模块分配.txt" />
+        <option value="$PROJECT_DIR$/模块分配/设计进度.txt" />
       </list>
     </option>
   </component>
@@ -103,9 +113,9 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="245" />
-    <option name="y" value="145" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="125" />
+    <option name="y" value="172" />
     <option name="width" value="1400" />
     <option name="height" value="780" />
   </component>
@@ -116,6 +126,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,27 +139,11 @@
               <item name="shopping" type="462c0819:PsiDirectoryNode" />
               <item name="原型设计" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="模块分配" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="模块心德、总结" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="模块设计" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,6 +241,7 @@
       <workItem from="1559738340496" duration="1029000" />
       <workItem from="1559819126821" duration="700000" />
       <workItem from="1559957595898" duration="4729000" />
+      <workItem from="1561166772290" duration="2063000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1556959387113</created>
@@ -307,25 +303,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24849000" />
+    <option name="totallyTimeSpent" value="27575000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.28255033" side_tool="true" visible="true" weight="0.40656206" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.28322148" side_tool="true" visible="true" weight="0.37945792" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.71744967" visible="true" weight="0.40656206" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.7167785" visible="true" weight="0.37945792" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17718121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17986578" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info anchor="right" id="Ant Build" order="2" />
@@ -333,6 +339,7 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49932885" visible="true" weight="0.43794578" />
     </layout>
   </component>
@@ -352,13 +359,6 @@
     <option name="LAST_COMMIT_MESSAGE" value=" 测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/模块心德、总结/商城术语-及模糊思想.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/模块设计/商城后台模块.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -525,23 +525,10 @@
     <entry file="file://$PROJECT_DIR$/原型设计/任务分配.txt" />
     <entry file="file://$PROJECT_DIR$/原型设计/商城后台.txt" />
     <entry file="file://$PROJECT_DIR$/原型设计/任务分配.txt" />
-    <entry file="file://$PROJECT_DIR$/原型设计/ShopManageAxure.rp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/原型设计/ShopManageAxure.rp" />
     <entry file="file://$PROJECT_DIR$/原型设计/商城术语-及模糊思想.txt" />
     <entry file="file://$PROJECT_DIR$/原型设计/商城后台.txt" />
     <entry file="file://$PROJECT_DIR$/原型设计/asd.html" />
-    <entry file="file://$PROJECT_DIR$/模块心德、总结/商城术语-及模糊思想.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/模块设计/商城后台模块.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -550,6 +537,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/模块分配/彭" />
+    <entry file="file://$PROJECT_DIR$/模块分配/模块详情.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模块分配/模块分配.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模块心德、总结/商城术语-及模糊思想.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/模块心德、总结/模块总结.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1525">
@@ -557,17 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/模块分配/模块详情.txt">
+    <entry file="file://$PROJECT_DIR$/模块分配/设计进度.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模块分配/模块分配.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="250">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
