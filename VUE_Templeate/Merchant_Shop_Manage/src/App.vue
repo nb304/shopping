@@ -1,20 +1,11 @@
-
-
 <template>
-    <div>
-        <h1>我是 app 组件</h1>
-        <router-link to="/account">Account</router-link>
-        <router-link to="/goodlist">GoodList</router-link>
-
-        <router-view></router-view>
-    </div>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <script>
-
-
+export default {
+  name: 'App'
+}
 </script>
-
-<style>
-
-</style>

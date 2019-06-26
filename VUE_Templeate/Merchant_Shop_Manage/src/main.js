@@ -1,51 +1,41 @@
+import Vue from 'vue'
 
-// import $ from 'jquery'
+import 'normalize.css/normalize.css' // A modern alternative to CSS resets
 
-// import './css/index.css'
-// import './css/test.scss'
-// import './css/tet.less'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import locale from 'element-ui/lib/locale/lang/en' // lang i18n
 
-// class person{
-//     pro(val){
-//         console.log(val)
-//     }
+import '@/styles/index.scss' // global css
 
-//     static info = {name: 'ss', age: '20'}
-// }
+import App from './App'
+import store from './store'
+import router from './router'
 
-// console.log(person.info)
-// 如果需要使用上面的 es6 语法 class 那么我们需要通过第三方的 loader 把高级语法转换成低级的语法之后，会把结果交给 webpack 打包到 bundle.js 中、
-// 通过 Babel ，可以帮我们将高级的语法转换成低级的语法
-// 在 webpack 中,可以运行下面的两套命令，安装两套包，安装的 Babel 相关的loader功能
-// 第一套包：cnpm i  "@babel/core" "@babel/preset-env" "@babel/runtime" "@babel/plugin-transform-runtime" -D
-// 第二套包：cnpm i  "@babel/plugin-proposal-class-properties" babel-loader -D
-// 然后打开 webpack 的配置文件中，在module节点中的rules中添加 一个新的匹配规则
-// { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ }  exclude 将配置到这的选项排除掉
-// 详情网址 https://www.cnblogs.com/QianDingwei/p/10800795.html
+import '@/icons' // icon
+import '@/permission' // permission control
 
-// $(function(){
-//     $('li:odd').css('backgroundColor', 'yellow')
-//     $('li:even').css('backgroundColor', 'red')
-// })
+/**
+ * If you don't want to use mock-server
+ * you want to use MockJs for mock api
+ * you can execute: mockXHR()
+ *
+ * Currently MockJs will be used in the production environment,
+ * please remove it before going online! ! !
+ */
+import { mockXHR } from '../mock'
+if (process.env.NODE_ENV === 'production') {
+  mockXHR()
+}
 
+// set ElementUI lang to EN
+Vue.use(ElementUI, { locale })
 
-import Vue from "vue"
-import app from './App.vue'
+Vue.config.productionTip = false
 
-import VueRouter from 'vue-router'
-Vue.use(VueRouter)
-
-// 导入路由的配置
-import router from './router.js'
-
-
-// 创建vm实例
-var vm = new Vue({
-    el: '#app',
-    data: {
-        msg: '123'
-    },
-    render: c => c(app),
-    router
-
+new Vue({
+  el: '#app',
+  router,
+  store,
+  render: h => h(App)
 })
