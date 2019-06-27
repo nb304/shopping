@@ -16,10 +16,10 @@
 </template>
 
 <script>
-import { Navbar, Sidebar, AppMain} from './components'
+import { Navbar, Sidebar, AppMain } from './components'
 import ResizeMixin from './mixin/ResizeHandler'
 import RightPanel from '@/components/RightPanel'
-import Settings from "./components/Settings/index.vue"
+import Settings from './components/Settings/index.vue'
 
 export default {
   name: 'Layout',
@@ -48,7 +48,7 @@ export default {
         withoutAnimation: this.sidebar.withoutAnimation,
         mobile: this.device === 'mobile'
       }
-    } 
+    }
   },
   methods: {
     handleClickOutside() {

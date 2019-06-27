@@ -26,6 +26,12 @@
 */
 export default {
   name: 'SidebarLogo',
+  props: {
+    collapse: {
+      type: Boolean,
+      required: true
+    }
+  },
   data() {
     return {
       title: 'Vue Admin Template',
@@ -74,12 +80,6 @@ export default {
       font-size: 14px;
       font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
       vertical-align: middle;
-    }
-  }
-
-  &.collapse {
-    .sidebar-logo {
-      margin-right: 0px;
     }
   }
 }

@@ -13,8 +13,6 @@ import qs from 'qs'
 Vue.use(axios)
 Vue.use(qs)
 
-export const getLists = []
-
 export function getList(params) {
   return axios.post('http://192.168.0.127/ucc/table/list', qs.stringify(params))
     .then(response => {

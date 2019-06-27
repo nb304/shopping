@@ -72,7 +72,6 @@ export default {
       getList().then(response => {
         this.list = response
         this.listLoading = false
-        console.log(this.list)
       })
     }
   }
